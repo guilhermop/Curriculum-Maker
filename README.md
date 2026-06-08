@@ -1,16 +1,88 @@
-# React + Vite
+[README (2).md](https://github.com/user-attachments/files/28720984/README.2.md)
+# CV Maker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and modern CV builder built with React and Vite.
 
-Currently, two official plugins are available:
+🔗 **Live demo:** [curriculomaker.netlify.app](https://curriculomaker.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## About
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+CV Maker lets you fill in your personal information, education, and work experience through a clean form interface, with a live preview updating in real time on the right side. Each section has its own **Submit** and **Edit** buttons, so you can lock in your data and go back to edit it whenever you want.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- **Personal Info section** — name, email, and phone number
+- **Education section** — school name, degree, and study period
+- **Experience section** — company, position, responsibilities, and dates
+- **Live preview** — updates as you type
+- **Edit / Submit per section** — toggle between editing and viewing modes
+- Dark, modern UI theme
+
+---
+
+## Tech Stack
+
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- CSS (vanilla, modular per component)
+
+---
+
+## Getting Started
+
+```bash
+# Clone the repository
+git clone https://github.com/seu-usuario/cv-maker.git
+
+# Navigate to the project folder
+cd cv-maker
+
+# Install dependencies
+npm install
+
+# Start the dev server
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+---
+
+## Project Structure
+
+```
+src/
+├── components/
+│   ├── PersonalInfoSection.jsx
+│   ├── EducationSection.jsx
+│   ├── ExperienceSection.jsx
+│   └── CVPreview.jsx
+├── styles/
+│   ├── App.css
+│   ├── PersonalInfoSection.css
+│   ├── EducationSection.css
+│   ├── ExperienceSection.css
+│   └── CVPreview.css
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+## What I Learned
+
+- Component structure in React
+- State management with `useState`
+- Passing props between components
+- Controlled inputs
+- Conditional rendering (edit vs. view mode)
+- CSS organization per component
+- Deploying a Vite app with Netlify
+
+---
+
+
