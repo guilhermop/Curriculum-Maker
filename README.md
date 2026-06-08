@@ -1,4 +1,3 @@
-[README (2).md](https://github.com/user-attachments/files/28720984/README.2.md)
 # CV Maker
 
 A simple and modern CV builder built with React and Vite.
