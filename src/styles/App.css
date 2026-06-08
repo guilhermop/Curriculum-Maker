@@ -1,0 +1,29 @@
+h1 {
+  text-align: center;
+  padding: 28px 32px;
+  background: linear-gradient(135deg, #0f1117 0%, #1a1d2e 100%);
+  color: #ffffff;
+  font-size: 1.6rem;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #2e3340;
+}
+
+.app-layout {
+  display: flex;
+  gap: 24px;
+  padding: 32px;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.form-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.preview-column {
+  flex: 1;
+}
